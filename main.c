@@ -11,11 +11,13 @@ int main()
     int nl, nc, i, j;
     nl=3;
     nc=4;
+    
     //alocando a matriz x
     x=(int**)malloc(nl*sizeof(int*));
     for (i=0; i<nl; i++){
         x[i] = (int*)malloc(nc*sizeof(int));
     }
+    
     //alocando a matriz y
     y=(int**)malloc(nc*sizeof(int*));
     for (i=0; i<nc; i++){
@@ -42,6 +44,7 @@ int main()
             y[i][j]=x[j][i];
         }
     }
+    
     //mostrando a matriz x
     printf("matriz original\n");
     for (i=0; i<nl; i++){
