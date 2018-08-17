@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1534511769 source:c:\users\user37\desktop\alocacao_de_memoria_matriz\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+
